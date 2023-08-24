@@ -2,9 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+    <link rel="icon" href="assets/src/img/common/favicons/favicon.ico">
+    <link rel="icon" href="assets/src/img/common/favicons/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="assets/src/img/common/favicons/favicon.png">
+    <link rel="stylesheet" href="assets/src/css/index.css">
     <link rel="stylesheet" href="css/base.css">
+    <script src="assets/src/js/home.js" defer></script>
 </head>
 <body>
 
@@ -25,7 +31,467 @@
     <!-- Конец -->
 
     <div class="main">
-        В данном блоке размещается верстка
+
+        <div class="wrapper">
+            <header class="header">
+                <div class="container">
+                    <div class="header__body">
+                        <div class="logo header__logo"><img src="assets/src/img/common/logo.png" height="100%" width="100%"></div>
+                        <nav class="header__menu">
+                            <ul>
+                                <li><a href="#anchor-about">О нас</a></li>
+                                <li><a href="#anchor-catalog">Каталог</a></li>
+                                <li><a href="#anchor-certificate">Сертификаты</a></li>
+                                <li><a href="#anchor-feedback">Отзывы</a></li>
+                                <li><a href="#anchor-contacts">Контакты</a></li>
+                            </ul>
+                        </nav><a class="header__phone" href="tel:87711459826">
+                        <div><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g id="&#209;&#130;&#208;&#181;&#208;&#187;&#208;&#181;&#209;&#132;&#208;&#190;&#208;&#189; 1"
+                               clip-path="url(#clip0_4_18)">
+                                <g id="Group">
+                                    <g id="Group_2">
+                                        <path id="Vector"
+                                              d="M15.5635 11.7424L13.3306 9.50954C12.5332 8.71209 11.1775 9.0311 10.8585 10.0678C10.6193 10.7855 9.82186 11.1842 9.10416 11.0247C7.50927 10.626 5.35617 8.5526 4.95744 6.87797C4.71821 6.16024 5.19668 5.36279 5.91438 5.12359C6.95106 4.80461 7.27004 3.44895 6.47259 2.65151L4.23974 0.418659C3.60179 -0.139553 2.64485 -0.139553 2.08664 0.418659L0.571493 1.93381C-0.943654 3.5287 0.730982 7.75516 4.47898 11.5032C8.22697 15.2511 12.4534 17.0056 14.0483 15.4106L15.5635 13.8955C16.1217 13.2575 16.1217 12.3006 15.5635 11.7424Z" />
+                                    </g>
+                                </g>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_4_18">
+                                    <rect width="16" height="16" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        </div><span>8 (771) 145-98-26</span>
+                    </a><button class="header__burgerBtn burgerBtn"><span></span><span></span><span></span></button>
+                    </div>
+                </div>
+            </header>
+            <div class="header__burgerContainer burgerContainer">
+                <nav>
+                    <ul>
+                        <li><a href="#anchor-about">О нас</a></li>
+                        <li><a href="#anchor-catalog">Каталог</a></li>
+                        <li><a href="#anchor-certificate">Сертификаты</a></li>
+                        <li><a href="#anchor-feedback">Отзывы</a></li>
+                        <li><a href="#anchor-contacts">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <main class="myMain">
+                <section class="welcome"><img class="welcome__imgSide" src="assets/src/img/welcome/boy.png" height="100%"
+                                              width="100%" loading="lazy" decoding="async">
+                    <div class="container"><img class="welcome__bg" src="assets/src/img/welcome/bg.png" height="100%" width="100%"
+                                                loading="lazy" decoding="async">
+                        <div class="welcome__body">
+                            <h1 class="welcome__title blockTitle blockTitle--1"><span>KEMENGER MEKTEBI</span> - центр
+                                интеллектуального развития</h1>
+                            <div class="welcome__text blockText blockText--1">Обучение происходит на казахском и русском языках. При
+                                записи на два или более курсов предусмотрена скидка. Запишитесь на бесплатный пробный урок.</div><button
+                          class="welcome__btn blockBtn">Оставить заявку</button>
+                        </div>
+                    </div>
+                </section>
+                <div class="about" id="anchor-about">
+                    <div class="about__container">
+                        <div class="container">
+                            <div class="about__body">
+                                <div class="about__items">
+                                    <div class="about__item">
+                                        <div class="about__itemText blockText blockText--1"><img
+                                          src="assets/src/img/about/decoration/circle2.png" height="100%" width="100%" loading="lazy"
+                                          decoding="async">
+                                            <p>В нашем центре работают профессиональные педагоги любящие детей и преданные своему делу. Мы
+                                                помогаем детям совершенствовать свои интеллекуальные способности чтобы они могли познавать мир и
+                                                делать его более красивым и добрым.</p>
+                                        </div>
+                                        <div class="about__itemPhoto"><img class="about__itemPhotoDecor"
+                                                                           src="assets/src/img/about/decoration/rectangle.png" height="100%" width="100%" loading="lazy"
+                                                                           decoding="async"><img class="about__itemPhotoImg" src="assets/src/img/about/photo/1.png"
+                                                                                                 alt="photo" title="photo" height="100%" width="100%" loading="lazy" decoding="async"></div>
+                                    </div>
+                                    <div class="about__item">
+                                        <div class="about__itemText blockText blockText--1"><img
+                                          src="assets/src/img/about/decoration/circle1.png" height="100%" width="100%" loading="lazy"
+                                          decoding="async">
+                                            <p>Наши ученики показывают результат уже с первого месяца работы, мы поддерживаем в нашем центре
+                                                теплую и дружескую атмосферу. Побывав у нас детям обязательно захочется вернуться сюда снова.
+                                                Развивайтесь вместе с нами.</p>
+                                        </div>
+                                        <div class="about__itemPhoto"><img class="about__itemPhotoDecor"
+                                                                           src="assets/src/img/about/decoration/rectangle.png" height="100%" width="100%" loading="lazy"
+                                                                           decoding="async"><img class="about__itemPhotoImg" src="assets/src/img/about/photo/2.png"
+                                                                                                 alt="photo" title="photo" height="100%" width="100%" loading="lazy" decoding="async"></div>
+                                    </div>
+                                </div>
+                                <div class="about__roulette">
+                                    <div class="about__rouletteImg"><img src="assets/src/img/about/ruletka/photo.png" alt="photo"
+                                                                         title="photo" height="100%" width="100%" loading="lazy" decoding="async"></div>
+                                    <div class="about__rouletteText blockText blockText--1">Мы развиваем детей с 5 до 16 лет по следующим
+                                        направлениям</div>
+                                    <div class="about__rouletteItems">
+                                        <div class="about__rouletteItem">
+                                            <div class="about__rouletteItemImg"><img src="assets/src/img/about/ruletka/similar.png"
+                                                                                     alt="Ментальная&lt;br&gt;фрифметика" title="Ментальная&lt;br&gt;фрифметика" height="100%"
+                                                                                     width="100%" loading="lazy" decoding="async"></div>
+                                            <div class="about__rouletteItemText blockText blockText--1">Ментальная<br>фрифметика</div>
+                                        </div>
+                                        <div class="about__rouletteItem">
+                                            <div class="about__rouletteItemImg"><img src="assets/src/img/about/ruletka/open-book.png"
+                                                                                     alt="Скорочтение" title="Скорочтение" height="100%" width="100%" loading="lazy"
+                                                                                     decoding="async"></div>
+                                            <div class="about__rouletteItemText blockText blockText--1">Скорочтение</div>
+                                        </div>
+                                        <div class="about__rouletteItem">
+                                            <div class="about__rouletteItemImg"><img src="assets/src/img/about/ruletka/graduation-hat.png"
+                                                                                     alt="Подготовка&lt;br&gt;к школе" title="Подготовка&lt;br&gt;к школе" height="100%"
+                                                                                     width="100%" loading="lazy" decoding="async"></div>
+                                            <div class="about__rouletteItemText blockText blockText--1">Подготовка<br>к школе</div>
+                                        </div>
+                                        <div class="about__rouletteItem">
+                                            <div class="about__rouletteItemImg"><img src="assets/src/img/about/ruletka/group.png"
+                                                                                     alt="Группа&lt;br&gt;продленного&lt;br&gt;дня"
+                                                                                     title="Группа&lt;br&gt;продленного&lt;br&gt;дня" height="100%" width="100%" loading="lazy"
+                                                                                     decoding="async"></div>
+                                            <div class="about__rouletteItemText blockText blockText--1">Группа<br>продленного<br>дня</div>
+                                        </div>
+                                        <div class="about__rouletteItem">
+                                            <div class="about__rouletteItemImg"><img src="assets/src/img/about/ruletka/brain.png"
+                                                                                     alt="Супер&lt;br&gt;память" title="Супер&lt;br&gt;память" height="100%" width="100%"
+                                                                                     loading="lazy" decoding="async"></div>
+                                            <div class="about__rouletteItemText blockText blockText--1">Супер<br>память</div>
+                                        </div>
+                                        <div class="about__rouletteItem">
+                                            <div class="about__rouletteItemImg"><img src="assets/src/img/about/ruletka/english-language.png"
+                                                                                     alt="Английский&lt;br&gt;язык" title="Английский&lt;br&gt;язык" height="100%" width="100%"
+                                                                                     loading="lazy" decoding="async"></div>
+                                            <div class="about__rouletteItemText blockText blockText--1">Английский<br>язык</div>
+                                        </div>
+                                        <div class="about__rouletteItem">
+                                            <div class="about__rouletteItemImg"><img src="assets/src/img/about/ruletka/pen-tip.png"
+                                                                                     alt="Каллиграфия" title="Каллиграфия" height="100%" width="100%" loading="lazy"
+                                                                                     decoding="async"></div>
+                                            <div class="about__rouletteItemText blockText blockText--1">Каллиграфия</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="catalog" id="anchor-catalog">
+                    <div class="container">
+                        <div class="catalog__body">
+                            <h2 class="catalog__title blockTitle blockTitle--1">Каталог</h2>
+                            <div class="catalog__slider">
+                                <div class="catalog__sliderItemWrapper">
+                                    <div class="catalog__sliderItem colorScheme1">
+                                        <div class="catalog__sliderItemTitle blockText blockText--1">Подготовка к школе</div>
+                                        <div class="catalog__sliderItemBody">
+                                            <div class="catalog__sliderItemPrice blockTitle blockTitle--1"><span>30 000 </span><span>тг</span>
+                                            </div>
+                                            <div class="catalog__sliderItemAge blockText blockText--1">4-6 лет</div>
+                                            <div class="catalog__sliderItemCount blockText blockText--1">3 занятия в неделю по 3 ч.</div>
+                                            <div class="catalog__sliderItemContent blockText blockText--1">
+                                                <ul>
+                                                    <li>Обучение чтению</li>
+                                                    <li>Письмо</li>
+                                                    <li>Математика</li>
+                                                    <li>Английский язык</li>
+                                                    <li>Развитие речи</li>
+                                                    <li>Концентрация внимания</li>
+                                                    <li>Усвоение изучаемого материала</li>
+                                                    <li>Различные техники запоминания</li>
+                                                    <li>Развитие логико-математического мышления</li>
+                                                </ul><button
+                                              class="catalog__sliderItemMoreBtn blockText blockText--1 blockHide">Подробнее...</button>
+                                            </div><button class="catalog__sliderItemSelectBtn blockText blockText--1">Выбрать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="catalog__sliderItemWrapper">
+                                    <div class="catalog__sliderItem colorScheme2">
+                                        <div class="catalog__sliderItemTitle blockText blockText--1">скорочтение</div>
+                                        <div class="catalog__sliderItemBody">
+                                            <div class="catalog__sliderItemPrice blockTitle blockTitle--1"><span>27 000 </span><span>тг</span>
+                                            </div>
+                                            <div class="catalog__sliderItemAge blockText blockText--1">6-15 лет</div>
+                                            <div class="catalog__sliderItemCount blockText blockText--1">3 занятия в неделю по 1 ч.</div>
+                                            <div class="catalog__sliderItemContent blockText blockText--1">
+                                                <ul>
+                                                    <li>Увеличение скорости чтения</li>
+                                                    <li>Артикуляция</li>
+                                                    <li>Развитие речи</li>
+                                                    <li>Развитие внимания</li>
+                                                    <li>Увеличение поля зрения</li>
+                                                    <li>Увеличение словарного запаса</li>
+                                                    <li>Понимание прочитанного</li>
+                                                    <li>Пересказ</li>
+                                                    <li>Различные техники понимания</li>
+                                                    <li>Пробный урок и диагностика БЕСПЛАТНО</li>
+                                                </ul><button
+                                              class="catalog__sliderItemMoreBtn blockText blockText--1 blockHide">Подробнее...</button>
+                                            </div><button class="catalog__sliderItemSelectBtn blockText blockText--1">Выбрать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="catalog__sliderItemWrapper">
+                                    <div class="catalog__sliderItem colorScheme3">
+                                        <div class="catalog__sliderItemTitle blockText blockText--1">ментальная арифметика</div>
+                                        <div class="catalog__sliderItemBody">
+                                            <div class="catalog__sliderItemPrice blockTitle blockTitle--1"><span>20 000 </span><span>тг</span>
+                                            </div>
+                                            <div class="catalog__sliderItemCount blockText blockText--1">2 занятия в неделю по 1 ч.</div>
+                                            <div class="catalog__sliderItemContent blockText blockText--1">
+                                                <ul>
+                                                    <li>Быстрый счет</li>
+                                                    <li>Развитие высокой концентрации</li>
+                                                    <li>Увеличение поля зрения</li>
+                                                    <li>Фотографическая память</li>
+                                                    <li>Пробный урок БЕСПЛАТНО</li>
+                                                    <li>Обучающая платформа в ПОДАРОК</li>
+                                                </ul><button
+                                              class="catalog__sliderItemMoreBtn blockText blockText--1 blockHide">Подробнее...</button>
+                                            </div><button class="catalog__sliderItemSelectBtn blockText blockText--1">Выбрать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="catalog__sliderItemWrapper">
+                                    <div class="catalog__sliderItem colorScheme4">
+                                        <div class="catalog__sliderItemTitle blockText blockText--1">Каллиграфия</div>
+                                        <div class="catalog__sliderItemBody">
+                                            <div class="catalog__sliderItemPrice blockTitle blockTitle--1"><span>24 000 </span><span>тг</span>
+                                            </div>
+                                            <div class="catalog__sliderItemCount blockText blockText--1">3 занятия в неделю по 1 ч.</div>
+                                            <div class="catalog__sliderItemContent blockText blockText--1">
+                                                <ul>
+                                                    <li>Развитие памяти</li>
+                                                    <li>Восприятие пространства</li>
+                                                    <li>Прокачивание мелкой моторики</li>
+                                                    <li>Основы грамотного письма</li>
+                                                    <li>Развитие физической выносливости и усидчивости</li>
+                                                    <li>Умение писать диктанты без графических и орфографических ошибок</li>
+                                                </ul><button
+                                              class="catalog__sliderItemMoreBtn blockText blockText--1 blockHide">Подробнее...</button>
+                                            </div><button class="catalog__sliderItemSelectBtn blockText blockText--1">Выбрать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="catalog__sliderItemWrapper">
+                                    <div class="catalog__sliderItem colorScheme5">
+                                        <div class="catalog__sliderItemTitle blockText blockText--1">Английский язык</div>
+                                        <div class="catalog__sliderItemBody">
+                                            <div class="catalog__sliderItemPrice blockTitle blockTitle--1"><span>18 000 </span><span>тг</span>
+                                            </div>
+                                            <div class="catalog__sliderItemCount blockText blockText--1">2 занятия в неделю по 1,5 ч.</div>
+                                            <div class="catalog__sliderItemContent blockText blockText--1">
+                                                <ul>
+                                                    <li>Чтение по правилам</li>
+                                                    <li>Знание 500 новых слов</li>
+                                                    <li>Самостоятельное выполнение домашнего задания</li>
+                                                </ul><button
+                                              class="catalog__sliderItemMoreBtn blockText blockText--1 blockHide">Подробнее...</button>
+                                            </div><button class="catalog__sliderItemSelectBtn blockText blockText--1">Выбрать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="catalog__sliderItemWrapper">
+                                    <div class="catalog__sliderItem colorScheme6">
+                                        <div class="catalog__sliderItemTitle blockText blockText--1">Группа продленного дня</div>
+                                        <div class="catalog__sliderItemBody">
+                                            <div class="catalog__sliderItemPrice blockTitle blockTitle--1"><span>35 000 </span><span>тг</span>
+                                            </div>
+                                            <div class="catalog__sliderItemCount blockText blockText--1">5 раз в неделю<br>1 смена с 9:00 по
+                                                12:00<br>2 смена с 14:00 по 17:00</div>
+                                            <div class="catalog__sliderItemContent blockText blockText--1">
+                                                <ul>
+                                                    <li>Подготовка к СОР и СОЧ</li>
+                                                    <li>Проработка пробелов в знаниях</li>
+                                                    <li>Индивидуальный подход</li>
+                                                    <li>Выявление сильных сторон ребенка</li>
+                                                    <li>Профессиональная помощь в подготовке домашних заданий</li>
+                                                    <li>Дополнительные образовательные дисциплины</li>
+                                                </ul><button
+                                              class="catalog__sliderItemMoreBtn blockText blockText--1 blockHide">Подробнее...</button>
+                                            </div><button class="catalog__sliderItemSelectBtn blockText blockText--1">Выбрать</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="certificate" id="anchor-certificate">
+                    <div class="certificate__container">
+                        <div class="container">
+                            <div class="certificate__body">
+                                <h2 class="certificate__title blockTitle blockTitle--1">Наши сертификаты</h2>
+                                <div class="certificate__items">
+                                    <div class="certificate__item"><img src="assets/src/img/certificate/1.png" alt="alt" title="title"
+                                                                        height="100%" width="100%" loading="lazy" decoding="async"></div>
+                                    <div class="certificate__item"><img src="assets/src/img/certificate/2.png" alt="alt" title="title"
+                                                                        height="100%" width="100%" loading="lazy" decoding="async"></div>
+                                    <div class="certificate__item"><img src="assets/src/img/certificate/1.png" alt="alt" title="title"
+                                                                        height="100%" width="100%" loading="lazy" decoding="async"></div>
+                                    <div class="certificate__item"><img src="assets/src/img/certificate/2.png" alt="alt" title="title"
+                                                                        height="100%" width="100%" loading="lazy" decoding="async"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="feedback" id="anchor-feedback">
+                    <div class="container">
+                        <div class="feedback__body">
+                            <h2 class="feedback__title blockTitle blockTitle--1">Отзывы</h2>
+                            <div class="feedback__slider">
+                                <div class="feedback__sliderItemWrapper">
+                                    <div class="feedback__sliderItem">
+                                        <div class="feedback__sliderItemHeader">
+                                            <div class="feedback__sliderItemImg"><img src="assets/src/img/feedback/Malika Fazlieva.png"
+                                                                                      alt="Malika Fazlieva" title="Malika Fazlieva" height="100%" width="100%" loading="lazy"
+                                                                                      decoding="async"></div>
+                                            <div class="feedback__sliderItemTitle blockText blockText--1">Malika Fazlieva</div>
+                                        </div>
+                                        <div class="feedback__sliderItemText">Маған ұнаған жері білімді жақсы береді. Ұлымның қатынап
+                                            жүргеніне 1 ай болмады бірақ нәтиже бар. Мұғалімдеріде өте сыпайы әрі білімді.</div>
+                                    </div>
+                                </div>
+                                <div class="feedback__sliderItemWrapper">
+                                    <div class="feedback__sliderItem">
+                                        <div class="feedback__sliderItemHeader">
+                                            <div class="feedback__sliderItemImg"><img src="assets/src/img/feedback/Aigul Lepessova.png"
+                                                                                      alt="Aigul Lepessova" title="Aigul Lepessova" height="100%" width="100%" loading="lazy"
+                                                                                      decoding="async"></div>
+                                            <div class="feedback__sliderItemTitle blockText blockText--1">Aigul Lepessova</div>
+                                        </div>
+                                        <div class="feedback__sliderItemText">Отлично все нравится! Внучка уже 6 месяц занимается, довольны
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="feedback__sliderItemWrapper">
+                                    <div class="feedback__sliderItem">
+                                        <div class="feedback__sliderItemHeader">
+                                            <div class="feedback__sliderItemImg"><img src="assets/src/img/feedback/Malika Fazlieva 2.png"
+                                                                                      alt="Malika Fazlieva" title="Malika Fazlieva" height="100%" width="100%" loading="lazy"
+                                                                                      decoding="async"></div>
+                                            <div class="feedback__sliderItemTitle blockText blockText--1">Malika Fazlieva</div>
+                                        </div>
+                                        <div class="feedback__sliderItemText">Маған ұнаған жері білімді жақсы береді. Ұлымның қатынап
+                                            жүргеніне 1 ай болмады бірақ нәтиже бар. Мұғалімдеріде өте сыпайы әрі білімді.</div>
+                                    </div>
+                                </div>
+                                <div class="feedback__sliderItemWrapper">
+                                    <div class="feedback__sliderItem">
+                                        <div class="feedback__sliderItemHeader">
+                                            <div class="feedback__sliderItemImg"><img src="assets/src/img/feedback/Анара Баймаганбетова.png"
+                                                                                      alt="Анара Баймаганбетова" title="Анара Баймаганбетова" height="100%" width="100%"
+                                                                                      loading="lazy" decoding="async"></div>
+                                            <div class="feedback__sliderItemTitle blockText blockText--1">Анара Баймаганбетова</div>
+                                        </div>
+                                        <div class="feedback__sliderItemText">Искренне рекомендую, детям дают отличные знания и
+                                            безопасность. Профессионалы своего дела. Удачи вам и успехов желаю.</div>
+                                    </div>
+                                </div>
+                                <div class="feedback__sliderItemWrapper">
+                                    <div class="feedback__sliderItem">
+                                        <div class="feedback__sliderItemHeader">
+                                            <div class="feedback__sliderItemImg"><img src="assets/src/img/feedback/Gulzhan Kossantayeva.png"
+                                                                                      alt="Gulzhan Kossantayeva" title="Gulzhan Kossantayeva" height="100%" width="100%"
+                                                                                      loading="lazy" decoding="async"></div>
+                                            <div class="feedback__sliderItemTitle blockText blockText--1">Gulzhan Kossantayeva</div>
+                                        </div>
+                                        <div class="feedback__sliderItemText">Комфорная обстановака, распологает к учебе, учителя
+                                            доброжелательные,но требовательные! То, что надо! Советую 100%.</div>
+                                    </div>
+                                </div>
+                                <div class="feedback__sliderItemWrapper">
+                                    <div class="feedback__sliderItem">
+                                        <div class="feedback__sliderItemHeader">
+                                            <div class="feedback__sliderItemImg"><img src="assets/src/img/feedback/Енлик Серик.png"
+                                                                                      alt="Енлик Серик" title="Енлик Серик" height="100%" width="100%" loading="lazy"
+                                                                                      decoding="async"></div>
+                                            <div class="feedback__sliderItemTitle blockText blockText--1">Енлик Серик</div>
+                                        </div>
+                                        <div class="feedback__sliderItemText">Айжан Талгатовна өз ісінің маманы. Менің қызымның оқу
+                                            үлгеріміне көп ықпал тигіздіңіз. Кемеңгер мектебі нағыз кеменгер бала тәлімін береді!</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts" id="anchor-contacts">
+                    <div class="container">
+                        <div class="contacts__body">
+                            <div class="contacts__img"><img src="assets/src/img/contacts/boy.png" height="100%" width="100%"
+                                                            loading="lazy" decoding="async"></div>
+                            <div class="contacts__info">
+                                <h2 class="contacts__title blockTitle blockTitle--1">Наши контакты</h2>
+                                <dl class="contacts__list">
+                                    <dt class="blockText blockText--1">Запишитесь на бесплатный пробный урок по номеру:</dt>
+                                    <dd class="blockText blockText--1"><a href="tel:" 87711459826>8 (771) 145-98-26</a></dd>
+                                    <dt class="blockText blockText--1">Адрес:</dt>
+                                    <dd class="blockText blockText--1">г. Нур-Султан, ул. К. Аманжолова, 28, офис 14</dd>
+                                    <dt class="blockText blockText--1">График работы:</dt>
+                                    <dd class="blockText blockText--1">Пн-Пт - 9:00-19:00;<br>Сб - 9:00-17:00;<br>Вс - выходной</dd>
+                                    <dt class="blockText blockText--1">E-mail:</dt>
+                                    <dd class="blockText blockText--1"><a href="mailto:@kemenger.mektebi">@kemenger.mektebi</a></dd>
+                                </dl>
+                            </div>
+                            <div class="contacts__map">
+                                <div class="contacts__mapImg"><img src="assets/src/img/contacts/map.png" alt="map" title="map"
+                                                                   height="100%" width="100%" loading="lazy" decoding="async"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="request blockHide">
+                    <div class="request__body">
+                        <div class="request__title blockText blockText--1">Заполните <span>форму</span><br>и мы
+                            обязательно<br>свяжемся с Вами.</div>
+                        <form class="request__form" action="" method="POST">
+                            <div class="request__formFields"><input type="text" placeholder="Ваше имя..." name="name"
+                                                                    data-value="Ваше имя:" autocomplete="off"><input type="text" placeholder="Ваш телефон..." name="phone"
+                                                                                                                     data-value="Ваш телефон:" autocomplete="off"><textarea placeholder="Комментарий..." name="comment"
+                                                                                                                                                                            data-value="Комментарий:" autocomplete="off"></textarea></div><button
+                          class="blockBtn blockBtn--1">Оставить заявку</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="thank blockHide">
+                    <div class="thank__body">
+                        <div class="thank__img"><img src="assets/src/img/modals/check.png" height="100%" width="100%" loading="lazy"
+                                                     decoding="async"></div>
+                        <div class="thank__text">
+                            <p><span>Спасибо</span> за заявку</p>
+                            <p>В ближайшее<br>время мы<br><span>свяжемся</span> с Вами</p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="footer__container">
+                    <div class="container">
+                        <div class="footer__body">
+                            <div class="logo footer__logo"><img src="assets/src/img/common/logo.png" height="100%" width="100%"></div>
+                            <nav class="footer__menu blockText blockText--1">
+                                <ul>
+                                    <li><a href="#anchor-about">О нас</a></li>
+                                    <li><a href="#anchor-catalog">Каталог</a></li>
+                                    <li><a href="#anchor-certificate">Сертификаты</a></li>
+                                    <li><a href="#anchor-feedback">Отзывы</a></li>
+                                    <li><a href="#anchor-contacts">Контакты</a></li>
+                                </ul>
+                            </nav>
+                            <div class="footer__banner"><img src="assets/src/img/footer/banner.png" alt="banner" title="banner"
+                                                             height="100%" width="100%" loading="lazy" decoding="async"></div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
     </div>
 
 </body>
